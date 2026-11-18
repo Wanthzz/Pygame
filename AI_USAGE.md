@@ -13,3 +13,4 @@ AI 를 전혀 쓰지 않았다면 표를 지우고 "이 과제에서 생성형 A
 | 날짜 | 도구 | 관련 기능 | 무엇을 물었나 | 결과를 어떻게 반영/수정했나 |
 |---|---|---|---|---|
 | 2026-11-17 | OpenAI Codex | F1 | 플레이어 좌우 이동과 화면 경계 제한 구현 요청 | entities.py의 Player.update에 방향키별 PLAYER_SPEED 이동과 좌우 경계 제한 코드를 AI가 작성함 |
+| 2026-11-18 | OpenAI Codex | F2 | 총알 생성, SPACE 발사, 위쪽 이동 및 화면 밖 제거 구현 요청 | entities.py의 Player.shoot와 Bullet.update, main.py의 발사 이벤트 처리를 AI가 작성하고 게임 오버 중 발사를 차단함 |
